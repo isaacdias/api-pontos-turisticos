@@ -6,5 +6,6 @@ class PontoTuristicoViewSet(ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = PontoTuristico.objects.all()
     serializer_class = PontoTuristicoSerializer
+    def get_queryset(self):
+        return PontoTuristico.objects.filter(aprovado=True)
