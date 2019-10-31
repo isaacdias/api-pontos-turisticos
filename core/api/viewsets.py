@@ -16,3 +16,6 @@ class PontoTuristicoViewSet(ModelViewSet):
 
     def create(self, request, *args, **kwargs):
         pass
+
+    def destroy(self, request, *args, **kwargs):
+        pass
