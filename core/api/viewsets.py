@@ -22,3 +22,6 @@ class PontoTuristicoViewSet(ModelViewSet):
 
     def retrieve(self, request, *args, **kwargs):
         pass
+
+    def update(self, request, *args, **kwargs):
+        pass
