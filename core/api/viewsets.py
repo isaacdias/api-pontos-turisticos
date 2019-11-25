@@ -33,3 +33,7 @@ class PontoTuristicoViewSet(ModelViewSet):
     @action(methods=['get'], detail=True)
     def denunciar(self, request, pk=None):
         pass
+
+    @action(methods=['get'], detail=False)
+    def teste(self, request):
+        pass
