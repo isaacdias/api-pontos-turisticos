@@ -1,5 +1,5 @@
-## API Pontos Turisticos
-#### Ainda em desenvolvimento...
+## API Pontos Turisticos (#### Ainda em desenvolvimento...)
+
 
 Estudo de desenvolvimento de API utilizando o django Rest Framework
 
