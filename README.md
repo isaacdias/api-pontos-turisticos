@@ -1,7 +1,7 @@
 ## API Pontos Turisticos (Ainda em desenvolvimento...)
 
 
-Estudo de desenvolvimento de API utilizando o django Rest Framework
+Estudo de desenvolvimento de API utilizando o Django Rest Framework
 
 - Python 3.6.9
 - Django 2.2.6
